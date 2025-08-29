@@ -1,0 +1,39 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+body {
+  background-color: hotpink;
+  height: 100vh;
+}
+
+* body {
+  color: white;
+}
+
+#first {
+  font-size: 24px;
+}
+
+.deux {
+  font-style: italic;
+}
+
+h1 {
+  font-size: 5rem;
+}
+
+.container {
+  display: flex;
+  justify-content: flex-start;
+  flex-direction: column;
+  align-items: center;
+  background-image: url(./kitty.jpg);
+  height: 100%;
+  background-repeat: no-repeat;
+  object-fit: cover;
+  background-position: center;
+  width: auto;
+}
